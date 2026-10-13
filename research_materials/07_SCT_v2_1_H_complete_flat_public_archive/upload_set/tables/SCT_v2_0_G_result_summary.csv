@@ -1,0 +1,7 @@
+checkpoint,background_family,alpha,role,classification,T_shape_min,high_k_plateau_mean_last10,gaussian_R2_diagnostic,monotonic_suppression_fraction,max_shape_diff_stepcheck,interpretation
+v2.0-B,smooth_global_power_bounce_a=(1+y^2)^(alpha/2),0.10,sensitivity,NON_GAUSSIAN_TRANSFER,0.83478607751775,0.8348125815193818,-2.9666054632462435,0.9083333333333333,0.0011210017078649992,bounded_plateau_like_non_gaussian_transfer
+v2.0-B,smooth_global_power_bounce_a=(1+y^2)^(alpha/2),0.20,primary,NON_GAUSSIAN_TRANSFER,0.49669335226159717,0.4967091220019727,-3.3374676505629255,0.925,0.000666990056331529,bounded_plateau_like_non_gaussian_transfer
+v2.0-B,smooth_global_power_bounce_a=(1+y^2)^(alpha/2),0.50,sensitivity,NON_GAUSSIAN_TRANSFER,0.031435961052055636,0.03143695912563335,-3.651590591225238,1.0,4.221407914974107e-05,bounded_plateau_like_non_gaussian_transfer
+v2.0-E,compact_C2_matched_power_law_bounce,0.20,primary,NON_GAUSSIAN_TRANSFER,0.4846899284699157,0.48470531710623027,-2.0205612659398393,0.8166666666666667,0.0006508709812670932,bounded_plateau_like_non_gaussian_transfer
+v2.0-E,compact_C2_matched_power_law_bounce,0.10,sensitivity,NON_GAUSSIAN_TRANSFER,0.8303942005823609,0.8304205651435621,-1.7211273401358302,0.7916666666666666,0.0011151039659925699,bounded_plateau_like_non_gaussian_transfer
+v2.0-E,compact_C2_matched_power_law_bounce,0.50,sensitivity,NON_GAUSSIAN_TRANSFER,0.022800289257107625,0.02280101315230044,0.5950302803940662,0.9,3.061753760163696e-05,bounded_plateau_like_non_gaussian_transfer

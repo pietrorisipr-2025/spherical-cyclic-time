@@ -1,0 +1,1 @@
+PASS: no absolute sandbox paths found in text files.

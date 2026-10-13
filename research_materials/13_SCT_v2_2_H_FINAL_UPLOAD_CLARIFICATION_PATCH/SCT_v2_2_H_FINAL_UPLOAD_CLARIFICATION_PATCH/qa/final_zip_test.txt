@@ -1,0 +1,3 @@
+zip=SCT_v2_2_H_FINAL_UPLOAD_CLARIFICATION_PATCH.zip
+entries=17
+testzip=PASS

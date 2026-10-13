@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "v13B_fixed_clock_ok_toy": 345,
+    "v13B_matter_window_ok_toy": 0,
+    "v13B_ok_toy_total": 681,
+    "v13B_radiation_window_ok_toy": 0,
+    "v13B_rows": 4320,
+    "v13C_coherent_toy": 228,
+    "v13C_critical": 1378,
+    "v13C_failed": 1077,
+    "v13C_rows": 5040,
+    "v13C_weak": 2357
+  },
+  "failures": []
+}

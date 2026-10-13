@@ -1,0 +1,26 @@
+alpha_template,classification,count
+capacity_growth_locked_dlnScap,critico: capienza molto immatura,55
+capacity_growth_locked_dlnScap,debole/quasi: nessun restart entro u_max,60
+capacity_growth_locked_dlnScap,debole: capienza non matura,5
+capacity_growth_locked_dlnScap,fallisce: nessun restart entro u_max,600
+fixed_physical_clock_Gamma_const,critico: restart precoce,2
+fixed_physical_clock_Gamma_const,debole/quasi: nessun restart entro u_max,44
+fixed_physical_clock_Gamma_const,debole: capienza non matura,75
+fixed_physical_clock_Gamma_const,debole: scala tardiva,58
+fixed_physical_clock_Gamma_const,fallisce: nessun restart entro u_max,196
+fixed_physical_clock_Gamma_const,ok toy,345
+legacy_H_scaled_constant,critico: capienza molto immatura,18
+legacy_H_scaled_constant,critico: restart precoce,2
+legacy_H_scaled_constant,debole/quasi: nessun restart entro u_max,45
+legacy_H_scaled_constant,debole: capienza non matura,70
+legacy_H_scaled_constant,debole: scala tardiva,57
+legacy_H_scaled_constant,fallisce: nessun restart entro u_max,195
+legacy_H_scaled_constant,ok toy,333
+matter_fraction_window,debole/quasi: nessun restart entro u_max,12
+matter_fraction_window,fallisce: nessun restart entro u_max,708
+matter_lambda_transition_window,critico: capienza molto immatura,10
+matter_lambda_transition_window,debole/quasi: nessun restart entro u_max,47
+matter_lambda_transition_window,debole: capienza non matura,28
+matter_lambda_transition_window,fallisce: nessun restart entro u_max,632
+matter_lambda_transition_window,ok toy,3
+radiation_fraction_window,fallisce: nessun restart entro u_max,720

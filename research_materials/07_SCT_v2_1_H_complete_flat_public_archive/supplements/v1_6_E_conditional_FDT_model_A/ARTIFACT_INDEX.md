@@ -1,0 +1,26 @@
+# Artifact Index v1.6-E
+
+- `CLAIM_BOUNDARY_v1_6_E.md`
+- `PROMPT_CONTINUE_AFTER_v1_6_E.md`
+- `README.md`
+- `SCT_v1_6_E_CONDITIONAL_FDT_MODEL_A_RESTRICTED_AUDIT.md`
+- `STATUS_v1_6_E.json`
+- `data/SCT_v1_6_E_axis_summary_by_A_F.csv`
+- `data/SCT_v1_6_E_axis_summary_by_k_c.csv`
+- `data/SCT_v1_6_E_axis_summary_by_n_s_proxy.csv`
+- `data/SCT_v1_6_E_classification_counts.csv`
+- `data/SCT_v1_6_E_classification_reason_counts.csv`
+- `data/SCT_v1_6_E_conditional_FDT_ModelA_restricted_scan.csv`
+- `data/SCT_v1_6_E_next_route_matrix.csv`
+- `data/SCT_v1_6_E_representative_rows.csv`
+- `data/SCT_v1_6_E_summary.json`
+- `figures/SCT_v1_6_E_classification_counts.png`
+- `figures/SCT_v1_6_E_coherent_counts_kc_AF.png`
+- `lineage/SCT_v1_6_E_lineage_hash_ledger.csv`
+- `qa/reproduced/SCT_v1_6_E_classification_counts.csv`
+- `qa/reproduced/SCT_v1_6_E_classification_reason_counts.csv`
+- `qa/reproduced/SCT_v1_6_E_conditional_FDT_ModelA_restricted_scan.csv`
+- `qa/reproduced/SCT_v1_6_E_summary.json`
+- `qa/reproduction_comparison.json`
+- `scripts/run_v16E_conditional_FDT_ModelA_restricted_audit.py`
+- `verify_manifest.py`

@@ -1,0 +1,28 @@
+{
+  "artifact": "SCT_v1_4_F_MINIMAL_REPRODUCIBILITY_PACKAGE_OR_CLOSE_V1_4_BRANCH.zip",
+  "claim_boundary": [
+    "toy/informational only",
+    "not peer reviewed",
+    "no physical cosmology claim",
+    "no observational claim",
+    "no parameter tuning"
+  ],
+  "created_utc": "2026-06-24T22:10:49.933343+00:00",
+  "decision": "SCT_v1_4_F_MINIMAL_REPRODUCIBILITY_PACKAGE_OR_CLOSE_V1_4_BRANCH_DONE; MINIMAL_REPRODUCIBILITY_PACKAGE_CREATED; V1_3_B_ALPHA_TEMPLATE_SCAN_REPRODUCIBLE; V1_3_C_PERTURBATIVE_MATCHING_SCAN_REPRODUCIBLE; V1_4_E_FAILURE_VOLUME_SUMMARIES_REPRODUCIBLE; V1_4_BRANCH_CONSERVATIVELY_CLOSED_PREPUBLICATION; NO_NEW_NUMERICAL_SCAN; NO_PARAMETER_TUNING; NO_MICROPHYSICAL_DERIVATION; NO_PHYSICAL_COSMOLOGY_CLAIM; NO_OBSERVATIONAL_CLAIM; NOT_PEER_REVIEWED; SINGLE_ZIP_OUTPUT_CREATED",
+  "expected_core_results": {
+    "v13B_fixed_clock_ok_toy": 345,
+    "v13B_matter_window_ok_toy": 0,
+    "v13B_ok_toy_total": 681,
+    "v13B_radiation_window_ok_toy": 0,
+    "v13B_rows": 4320,
+    "v13C_coherent_fraction": 0.04523809523809524,
+    "v13C_coherent_toy": 228,
+    "v13C_critical": 1378,
+    "v13C_failed": 1077,
+    "v13C_rows": 5040,
+    "v13C_weak": 2357
+  },
+  "obsolete_note_control": "v1.3-A through v1.3-I and v1.4-A through v1.4-E remain useful lineage; none are marked obsolete by v1.4-F.",
+  "project": "Spherical Cyclic Time / Tempo Sferico Ciclico",
+  "version": "v1.4-F"
+}

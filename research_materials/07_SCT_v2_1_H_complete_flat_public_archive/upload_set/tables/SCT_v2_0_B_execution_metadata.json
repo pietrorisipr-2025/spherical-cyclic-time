@@ -1,0 +1,28 @@
+{
+  "protocol_source": "SCT_v2_0_A_MINIMAL_CYCLIC_BACKGROUND_TRANSFER_TEST_PREREG",
+  "alphas": [
+    0.1,
+    0.2,
+    0.5
+  ],
+  "primary_alpha": 0.2,
+  "k_grid": "logspace(-2,2,121)",
+  "k_min": 0.01,
+  "k_max": 100.0,
+  "n_k": 121,
+  "y_interval": [
+    -50.0,
+    50.0
+  ],
+  "equation": "u_k'' + [k^2 - a''/a] u_k = 0",
+  "background": "a(y)=(1+y^2)^(alpha/2)",
+  "a_pp_over_a": "alpha*(1+(alpha-1)*y^2)/(1+y^2)^2",
+  "integrator": "vectorized fixed-step RK4",
+  "final_step_h": 0.0005,
+  "final_n_steps": 200000,
+  "final_runtime_seconds": 20.78013253211975,
+  "check_step_h": 0.001,
+  "check_n_steps": 100000,
+  "check_runtime_seconds": 10.191479444503784,
+  "decision": "SCT_v2_0_B_MINIMAL_BACKGROUND_TRANSFER_TEST_EXECUTION_DONE; PREREGISTERED_PROTOCOL_EXECUTED; PRIMARY_ALPHA_0_20_CLASSIFIED_NON_GAUSSIAN_TRANSFER; DERIVED_TRANSFER_SHOWS_BOUNDED_SUPPRESSION_PLATEAU_NOT_GAUSSIAN_DAMPING; SENSITIVITY_ALPHA_0_10_AND_0_50_ALSO_NON_GAUSSIAN_TRANSFER; GAUSSIAN_COMPARISON_USED_ONLY_AS_DIAGNOSTIC; NO_BATH_NOISE_P_XI_GAMMA_S_FDT_KMS_OR_ENTROPY_MAP; NO_PARAMETER_TUNING; NO_PHYSICAL_COSMOLOGY_CLAIM; NO_OBSERVATIONAL_CLAIM; LICENSE_SAFE_NO_EXTERNAL_CONTENT_COPIED; NOT_PEER_REVIEWED; SINGLE_ZIP_OUTPUT_CREATED"
+}

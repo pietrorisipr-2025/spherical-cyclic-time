@@ -1,0 +1,7 @@
+alpha_template,total_rows,ok_toy,ok_toy_fraction,failure_rows,failure_fraction,critical_rows,near_or_weak_rows
+capacity_growth_locked_dlnScap,720,0,0.0,600,0.8333333333333334,55,65
+fixed_physical_clock_Gamma_const,720,345,0.4791666666666667,196,0.2722222222222222,2,177
+legacy_H_scaled_constant,720,333,0.4625,195,0.2708333333333333,20,172
+matter_fraction_window,720,0,0.0,708,0.9833333333333333,0,12
+matter_lambda_transition_window,720,3,0.004166666666666667,632,0.8777777777777778,10,75
+radiation_fraction_window,720,0,0.0,720,1.0,0,0

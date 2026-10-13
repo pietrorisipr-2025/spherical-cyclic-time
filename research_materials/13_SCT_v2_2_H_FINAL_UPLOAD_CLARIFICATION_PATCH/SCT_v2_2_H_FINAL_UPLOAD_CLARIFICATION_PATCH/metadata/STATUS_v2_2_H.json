@@ -1,0 +1,32 @@
+{
+  "version": "SCT v2.2-H",
+  "package": "SCT_v2_2_H_FINAL_UPLOAD_CLARIFICATION_PATCH",
+  "decision": "SCT_V2_2_H_FINAL_UPLOAD_CLARIFICATION_PATCH_DONE",
+  "purpose": "Address final review reservations before upload: visible QA-only note, explicit no-new-result version semantics, descriptive-only B(sigma) notation note, and portable audit-script template.",
+  "changes": [
+    "Created Zenodo/GitHub public copy blocks that state v2.2 is wording clarification plus invariance audit, not a new numerical or observational result.",
+    "Made the inherited v2.1-H QA-only manifest mismatch visible in upload copy.",
+    "Marked B(sigma)={L_i(sigma)} as descriptive-only notation, not a dynamical equation or computational input.",
+    "Added a path-configurable run_numeric_compare template to replace the hardcoded /mnt/data paths in the executed v2.2-F audit script for future third-party reruns."
+  ],
+  "no_changes": [
+    "No new numerical execution.",
+    "No formula or derivation changed.",
+    "No transfer-kernel result changed.",
+    "No observational claim.",
+    "No modification to v2.1-H archived/public files.",
+    "No widening of claim boundary."
+  ],
+  "input_sha256": {
+    "SCT_v2_1_H_ZENODO_PUBLICATION_PREP_FINAL_PUBLIC_PACKAGE.zip": "1cef1954a299717c8bf2330d3691053c5e78ffe7fd5833d1f7e60b49d6e1a452",
+    "SCT_v2_1_H_RECOMMENDED_ZENODO_UPLOAD_FILES.zip": "3cf0b99ee1d0eefb0ea99fa7b55bca15312926de91d46aefcb755bc722760ade",
+    "SCT_v2_2_E_INTEGRATED_PUBLIC_MINI_RELEASE_TIMELINE_BUNDLE.zip": "6df6bce19dbd2ef930ac6e854501f0252e9951e2c8a6c2f45989e62bd3d44153",
+    "SCT_v2_2_F_NUMERICAL_FORMULA_INVARIANCE_AUDIT.zip": "4b377a8d87ccb73b5ab89cb4ac3871561128784bcb8a02ee4ce5f9497fadc499",
+    "SCT_v2_2_G_FINAL_UPLOAD_BUNDLE_FLAT.zip": "089c3c423932aca95e07242ff871fc299af9e275c663fd89c46e03b2a7d5636e",
+    "SCT_v2_2_G_FINAL_UPLOAD_BUNDLE_FLAT.pdf": "f119547d62ce327c4c440fa625fef50be42fdbcd1183d1d2b66a141589900e20"
+  },
+  "known_notes": [
+    "v2.1-H contains a documented QA-only manifest mismatch on qa/final_zip_test.txt; v2.2-F found and documented it. It does not affect formulas, scripts, tables, numerical outputs, or scientific results."
+  ],
+  "overall_status": "PASS_CLARIFICATION_PATCH_READY"
+}

@@ -1,0 +1,26 @@
+metric,value
+v1.4-F total reproduction,ALL REPRODUCIBILITY CHECKS PASS
+v13B_rows,4320
+v13B_ok_toy_total,681
+v13C_rows,5040
+v13C_coherent_toy,228
+v13C_weak,2357
+v13C_critical,1378
+v13C_failed,1077
+v1.6-E rows,140
+v1.6-E coherent_toy,25
+v1.6-E critical,28
+v1.6-E failed,35
+v1.6-E weak,52
+v2.0-B alpha 0.1 classification,NON_GAUSSIAN_TRANSFER
+v2.0-B alpha 0.1 max T diff,1.110e-16
+v2.0-B alpha 0.2 classification,NON_GAUSSIAN_TRANSFER
+v2.0-B alpha 0.2 max T diff,5.551e-17
+v2.0-B alpha 0.5 classification,NON_GAUSSIAN_TRANSFER
+v2.0-B alpha 0.5 max T diff,9.714e-17
+v2.0-E alpha 0.2 classification,NON_GAUSSIAN_TRANSFER
+v2.0-E alpha 0.2 max T diff,2.670e-14
+v2.0-E alpha 0.1 classification,NON_GAUSSIAN_TRANSFER
+v2.0-E alpha 0.1 max T diff,7.339e-14
+v2.0-E alpha 0.5 classification,NON_GAUSSIAN_TRANSFER
+v2.0-E alpha 0.5 max T diff,3.129e-15

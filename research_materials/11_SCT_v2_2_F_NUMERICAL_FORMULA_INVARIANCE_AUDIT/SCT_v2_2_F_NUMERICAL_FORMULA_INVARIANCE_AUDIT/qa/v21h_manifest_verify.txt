@@ -1,0 +1,2 @@
+MANIFEST FAIL
+('qa/final_zip_test.txt', 'hash_mismatch')

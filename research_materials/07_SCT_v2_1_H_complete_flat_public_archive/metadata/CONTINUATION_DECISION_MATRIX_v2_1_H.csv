@@ -1,0 +1,6 @@
+route,needed_input,obtainability,action
+Publication,Zenodo new-version draft and optional ORCID/community,obtainable by user in Zenodo UI,publish when ready
+Physical matching,background/action + gauge variable + z(eta) + matching surface/conditions,not in current SCT; needs independent model,preregister before execution
+Open-system/diffusive,environment + state + coupling + spectral density + timescale + entropy map,not in current SCT; needs independent microphysics,do not execute without model
+Plateau analytic lemma,current proxy equation and high-k transparency argument,obtainable now,minor analytic refinement only
+Third toy background,another hand-picked background,discouraged/post-hoc risk,do not do to rescue gaussianity

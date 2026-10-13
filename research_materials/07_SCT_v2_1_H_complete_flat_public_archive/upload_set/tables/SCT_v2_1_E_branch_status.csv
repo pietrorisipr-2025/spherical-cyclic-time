@@ -1,0 +1,6 @@
+route,status,language,boundary
+Conservative mainline,PROMOTED,Use T_R(k) as a model-dependent transfer operator.,No physical kernel derivation is claimed.
+Closed deterministic background route,LIMITED NEGATIVE COMPUTATIONAL RESULT,Two preregistered toy families gave bounded plateau-like non-gaussian transfer.,No no-go theorem for all cyclic/bounce backgrounds.
+Open-system/diffusive route,CONDITIONAL TOY BRANCH,Gaussian exp[-(k/k_c)^2] is allowed only if diffusion/coarse-graining is independently specified.,No bath/noise/FDT/Gamma/entropy map derived.
+Plateau-like closed-route branch,EXPLANATORY TOY BRANCH,T_pl(k)=p_inf+(1-p_inf)/(1+(k/k_x)^2).,No observational fit or universal physical kernel.
+More physical matching route,BLOCKED,"Requires independent background/action, gauge-invariant variable, z(eta), and matching conditions.",No execution until prerequisites are specified.

@@ -1,0 +1,16 @@
+{
+  "decision": "SCT_V2_2_F_NUMERICAL_FORMULA_INVARIANCE_AUDIT_DONE",
+  "overall_status": "PASS_NUMERICAL_INVARIANCE_AUDIT_WITH_QA_MANIFEST_NOTE",
+  "input_hashes": {
+    "v2_1_H_zip_sha256": "1cef1954a299717c8bf2330d3691053c5e78ffe7fd5833d1f7e60b49d6e1a452",
+    "v2_2_E_zip_sha256": "6df6bce19dbd2ef930ac6e854501f0252e9951e2c8a6c2f45989e62bd3d44153"
+  },
+  "claim_boundary": [
+    "no new numerical execution beyond rerun/audit",
+    "no formula change",
+    "no transfer-kernel result change",
+    "no observational claim",
+    "not peer reviewed"
+  ],
+  "next_recommended": "SCT v2.2-G final upload bundle flat, only after user approval"
+}

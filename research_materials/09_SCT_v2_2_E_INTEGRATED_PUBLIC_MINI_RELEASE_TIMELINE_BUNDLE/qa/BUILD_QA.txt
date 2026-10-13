@@ -1,0 +1,1 @@
+BUILD QA: package generated; PDF built; manifest written; external ZIP and manifest checks are sidecar reports.

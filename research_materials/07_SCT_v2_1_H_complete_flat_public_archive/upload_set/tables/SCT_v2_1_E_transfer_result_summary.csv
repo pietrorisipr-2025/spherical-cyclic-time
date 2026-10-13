@@ -1,0 +1,7 @@
+family,checkpoint,alpha,classification,high_k_plateau_mean_last10,gaussian_R2,note
+smooth_power_bounce_a_1_plus_y2_alpha_over_2,v2.0-B,0.10,NON_GAUSSIAN_TRANSFER,0.834813,-2.967,preregistered sensitivity
+smooth_power_bounce_a_1_plus_y2_alpha_over_2,v2.0-B,0.20,NON_GAUSSIAN_TRANSFER,0.496709,-3.337,primary
+smooth_power_bounce_a_1_plus_y2_alpha_over_2,v2.0-B,0.50,NON_GAUSSIAN_TRANSFER,0.031437,-3.652,preregistered sensitivity
+compact_C2_matched_power_law_bounce,v2.0-E,0.10,NON_GAUSSIAN_TRANSFER,0.830421,-1.72113,preregistered sensitivity
+compact_C2_matched_power_law_bounce,v2.0-E,0.20,NON_GAUSSIAN_TRANSFER,0.484705,-2.02056,primary
+compact_C2_matched_power_law_bounce,v2.0-E,0.50,NON_GAUSSIAN_TRANSFER,0.022801,0.59503,preregistered sensitivity; still bounded plateau-like

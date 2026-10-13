@@ -1,0 +1,45 @@
+{
+  "version": "v1.6-E",
+  "title": "Conditional FDT Model A Restricted Audit",
+  "rows": 140,
+  "grid": {
+    "n_s_proxy": [
+      0.9,
+      0.965,
+      1.0,
+      1.1
+    ],
+    "k_c": [
+      0.03,
+      0.1,
+      0.3,
+      1.0,
+      3.0
+    ],
+    "A_F": [
+      0.01,
+      0.03,
+      0.1,
+      0.3,
+      1.0,
+      3.0,
+      10.0
+    ],
+    "p": "2 fixed",
+    "n_xi": "removed"
+  },
+  "classification_counts": {
+    "weak": 52,
+    "failed": 35,
+    "critical": 28,
+    "coherent_toy": 25
+  },
+  "coherent_fraction": 0.17857142857142858,
+  "claim_boundary": [
+    "toy conditional FDT closure only",
+    "no physical cosmology claim",
+    "no microphysical derivation claim",
+    "no observational claim",
+    "not peer reviewed"
+  ]
+}

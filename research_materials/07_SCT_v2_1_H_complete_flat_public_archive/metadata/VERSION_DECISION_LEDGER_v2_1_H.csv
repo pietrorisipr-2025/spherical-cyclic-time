@@ -1,0 +1,7 @@
+version,role,public/internal,status
+v1.2.0,current public Zenodo baseline,public,published on Zenodo record 20499294
+v1.6.x,main paper baseline with FDT/toy closure lineage,public-material baseline,included as PDFs
+v1.7-v1.9,requirements/survey obstruction audits,internal/public summary only,reclassified; not computational negative result
+v2.0,minimal transfer test branch,public addendum,two preregistered closed-background transfer tests; non-gaussian plateau-like results
+v2.1,transfer-language patch,public patch,mainline T_R is model-dependent; gaussian only conditional open-system/diffusive toy
+v2.1-H,Zenodo publication prep / final public package,public release prep,created

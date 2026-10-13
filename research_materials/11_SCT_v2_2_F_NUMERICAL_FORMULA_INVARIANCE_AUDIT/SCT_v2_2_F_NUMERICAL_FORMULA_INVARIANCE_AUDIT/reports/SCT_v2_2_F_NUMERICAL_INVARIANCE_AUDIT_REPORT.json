@@ -1,0 +1,380 @@
+{
+  "checks": {
+    "package_manifest_v2_1_H": {
+      "detail": "MANIFEST FAIL\n('qa/final_zip_test.txt', 'hash_mismatch')",
+      "status": "FAIL_QA_ONLY_KNOWN_PACKAGING_MISMATCH"
+    },
+    "package_manifest_v2_2_E_manual": {
+      "failures": [],
+      "status": "PASS",
+      "total": 18
+    },
+    "v1_4_F_reference_vs_rerun": {
+      "items": [
+        {
+          "columns_same": true,
+          "diff_cells": 0,
+          "file": "SCT_v1_3_B_alpha_template_counts.csv",
+          "max_abs_numeric_diff": 0.0,
+          "shape_a": [
+            25,
+            3
+          ],
+          "shape_b": [
+            25,
+            3
+          ],
+          "status": "PASS"
+        },
+        {
+          "columns_same": true,
+          "diff_cells": 0,
+          "file": "SCT_v1_3_B_alpha_template_dynamic_scan.csv",
+          "max_abs_numeric_diff": 1.7763568394002505e-15,
+          "shape_a": [
+            4320,
+            13
+          ],
+          "shape_b": [
+            4320,
+            13
+          ],
+          "status": "PASS"
+        },
+        {
+          "columns_same": true,
+          "diff_cells": 0,
+          "file": "SCT_v1_3_B_alpha_template_summary.csv",
+          "max_abs_numeric_diff": 0.0,
+          "shape_a": [
+            6,
+            6
+          ],
+          "shape_b": [
+            6,
+            6
+          ],
+          "status": "PASS"
+        },
+        {
+          "columns_same": true,
+          "diff_cells": 8,
+          "file": "SCT_v1_3_C_matching_classification_counts.csv",
+          "max_abs_numeric_diff": 1774.0,
+          "semantic_compare_after_sort": {
+            "columns_same": true,
+            "diff_cells": 0,
+            "max_abs_numeric_diff": 0.0,
+            "shape_a": [
+              9,
+              3
+            ],
+            "shape_b": [
+              9,
+              3
+            ],
+            "status": "PASS"
+          },
+          "shape_a": [
+            9,
+            3
+          ],
+          "shape_b": [
+            9,
+            3
+          ],
+          "status": "DIFF"
+        },
+        {
+          "columns_same": true,
+          "diff_cells": 0,
+          "file": "SCT_v1_3_C_matching_scan_full.csv",
+          "max_abs_numeric_diff": 0.0,
+          "shape_a": [
+            5040,
+            17
+          ],
+          "shape_b": [
+            5040,
+            17
+          ],
+          "status": "PASS"
+        },
+        {
+          "columns_same": true,
+          "diff_cells": 0,
+          "file": "SCT_v1_3_C_transfer_kind_summary.csv",
+          "max_abs_numeric_diff": 0.0,
+          "shape_a": [
+            3,
+            5
+          ],
+          "shape_b": [
+            3,
+            5
+          ],
+          "status": "PASS"
+        },
+        {
+          "columns_same": true,
+          "diff_cells": 0,
+          "file": "SCT_v1_4_E_parameter_volume_summary.csv",
+          "max_abs_numeric_diff": 0.0,
+          "shape_a": [
+            2,
+            10
+          ],
+          "shape_b": [
+            2,
+            10
+          ],
+          "status": "PASS"
+        },
+        {
+          "columns_same": false,
+          "diff_cells": null,
+          "file": "SCT_v1_4_E_v13B_alpha_template_volume.csv",
+          "max_abs_numeric_diff": null,
+          "semantic_mapped_numeric_diffs": [
+            [
+              "total_cases",
+              "total_rows",
+              0.0
+            ],
+            [
+              "ok_toy_cases",
+              "ok_toy",
+              0.0
+            ],
+            [
+              "strict_fail_cases",
+              "failure_rows",
+              0.0
+            ],
+            [
+              "critical_cases",
+              "critical_rows",
+              0.0
+            ],
+            [
+              "weak_cases",
+              "near_or_weak_rows",
+              0.0
+            ],
+            [
+              "ok_fraction_grid_proxy",
+              "ok_toy_fraction",
+              0.0
+            ],
+            [
+              "strict_fail_fraction_grid_proxy",
+              "failure_fraction",
+              0.0
+            ]
+          ],
+          "semantic_status": "PASS",
+          "shape_a": [
+            6,
+            9
+          ],
+          "shape_b": [
+            6,
+            8
+          ],
+          "status": "SCHEMA_DIFF"
+        },
+        {
+          "columns_same": false,
+          "diff_cells": null,
+          "file": "SCT_v1_4_E_v13C_classification_volume.csv",
+          "max_abs_numeric_diff": null,
+          "semantic_mapped_numeric_diffs": [
+            [
+              "count",
+              "rows",
+              0.0
+            ],
+            [
+              "fraction_grid_proxy",
+              "fraction",
+              0.0
+            ]
+          ],
+          "semantic_status": "PASS",
+          "shape_a": [
+            4,
+            3
+          ],
+          "shape_b": [
+            4,
+            3
+          ],
+          "status": "SCHEMA_DIFF"
+        }
+      ],
+      "run_summary": {
+        "checks": {
+          "v13B_fixed_clock_ok_toy": 345,
+          "v13B_matter_window_ok_toy": 0,
+          "v13B_ok_toy_total": 681,
+          "v13B_radiation_window_ok_toy": 0,
+          "v13B_rows": 4320,
+          "v13C_coherent_toy": 228,
+          "v13C_critical": 1378,
+          "v13C_failed": 1077,
+          "v13C_rows": 5040,
+          "v13C_weak": 2357
+        },
+        "failures": []
+      },
+      "status": "PASS_CORE_COUNTS_AND_TABLES"
+    },
+    "v1_6_E_reference_vs_rerun": {
+      "items": [
+        {
+          "columns_same": true,
+          "diff_cells": 0,
+          "file": "SCT_v1_6_E_classification_counts.csv",
+          "max_abs_numeric_diff": 0.0,
+          "shape_a": [
+            4,
+            2
+          ],
+          "shape_b": [
+            4,
+            2
+          ],
+          "status": "PASS"
+        },
+        {
+          "columns_same": true,
+          "diff_cells": 4,
+          "file": "SCT_v1_6_E_classification_reason_counts.csv",
+          "max_abs_numeric_diff": 2.0,
+          "semantic_compare_after_sort": {
+            "columns_same": true,
+            "diff_cells": 0,
+            "max_abs_numeric_diff": 0.0,
+            "shape_a": [
+              7,
+              3
+            ],
+            "shape_b": [
+              7,
+              3
+            ],
+            "status": "PASS"
+          },
+          "shape_a": [
+            7,
+            3
+          ],
+          "shape_b": [
+            7,
+            3
+          ],
+          "status": "DIFF"
+        },
+        {
+          "columns_same": true,
+          "diff_cells": 0,
+          "file": "SCT_v1_6_E_conditional_FDT_ModelA_restricted_scan.csv",
+          "max_abs_numeric_diff": 0.0,
+          "shape_a": [
+            140,
+            19
+          ],
+          "shape_b": [
+            140,
+            19
+          ],
+          "status": "PASS"
+        }
+      ],
+      "run_summary": {
+        "classification_counts": {
+          "coherent_toy": 25,
+          "critical": 28,
+          "failed": 35,
+          "weak": 52
+        },
+        "coherent_fraction": 0.17857142857142858,
+        "rows": 140
+      },
+      "status": "PASS"
+    },
+    "v2_0_B_transfer_table_vs_rerun": {
+      "items": [
+        {
+          "alpha": 0.1,
+          "classification": "NON_GAUSSIAN_TRANSFER",
+          "max_abs_PT_diff": 2.220446049250313e-16,
+          "max_abs_T_shape_diff": 1.1102230246251565e-16,
+          "rows": 121
+        },
+        {
+          "alpha": 0.2,
+          "classification": "NON_GAUSSIAN_TRANSFER",
+          "max_abs_PT_diff": 2.220446049250313e-16,
+          "max_abs_T_shape_diff": 5.551115123125783e-17,
+          "rows": 121
+        },
+        {
+          "alpha": 0.5,
+          "classification": "NON_GAUSSIAN_TRANSFER",
+          "max_abs_PT_diff": 3.552713678800501e-15,
+          "max_abs_T_shape_diff": 9.71445146547012e-17,
+          "rows": 121
+        }
+      ],
+      "status": "PASS"
+    },
+    "v2_0_E_transfer_table_vs_numba_rerun": {
+      "items": [
+        {
+          "alpha": 0.2,
+          "classification": "NON_GAUSSIAN_TRANSFER",
+          "high_k_plateau_mean_last10_rerun": 0.4847053171062285,
+          "max_abs_T_shape_diff": 2.6700863742235015e-14,
+          "max_abs_k_diff": 4.973799150320701e-14,
+          "max_abs_raw_diff": 2.7533531010703882e-14,
+          "rows": 121
+        },
+        {
+          "alpha": 0.1,
+          "classification": "NON_GAUSSIAN_TRANSFER",
+          "high_k_plateau_mean_last10_rerun": 0.8304205651435657,
+          "max_abs_T_shape_diff": 7.338574192772285e-14,
+          "max_abs_k_diff": 4.973799150320701e-14,
+          "max_abs_raw_diff": 4.440892098500626e-14,
+          "rows": 121
+        },
+        {
+          "alpha": 0.5,
+          "classification": "NON_GAUSSIAN_TRANSFER",
+          "high_k_plateau_mean_last10_rerun": 0.02280101315230043,
+          "max_abs_T_shape_diff": 3.12944115066216e-15,
+          "max_abs_k_diff": 4.973799150320701e-14,
+          "max_abs_raw_diff": 5.084821452783217e-14,
+          "rows": 121
+        }
+      ],
+      "status": "PASS"
+    },
+    "v2_2_E_no_numeric_replacement_payload": {
+      "note": "Only metadata/source-index CSV found; no scripts or result tables replacing v2.1-H numerics.",
+      "numeric_like_files": [
+        "metadata/INCLUDED_SOURCE_INDEX_v2_2_E.csv"
+      ],
+      "status": "PASS"
+    }
+  },
+  "decision": "SCT_v2_2_F_NUMERICAL_TABLE_INVARIANCE_AUDIT",
+  "inputs": {
+    "v2_1_H_zip": "/mnt/data/SCT_v2_1_H_ZENODO_PUBLICATION_PREP_FINAL_PUBLIC_PACKAGE.zip",
+    "v2_1_H_zip_sha256": "1cef1954a299717c8bf2330d3691053c5e78ffe7fd5833d1f7e60b49d6e1a452",
+    "v2_2_E_zip": "/mnt/data/SCT_v2_2_E_INTEGRATED_PUBLIC_MINI_RELEASE_TIMELINE_BUNDLE.zip",
+    "v2_2_E_zip_sha256": "6df6bce19dbd2ef930ac6e854501f0252e9951e2c8a6c2f45989e62bd3d44153"
+  },
+  "overall_status": "PASS_NUMERICAL_INVARIANCE_AUDIT_WITH_QA_MANIFEST_NOTE"
+}

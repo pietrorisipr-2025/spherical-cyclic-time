@@ -1,0 +1,4 @@
+transfer_kind,coherent_toy,critical,failed,weak
+exp_uv_cutoff,86,398,377,819
+sharp_logistic_cutoff,57,490,350,783
+soft_power_cutoff,85,490,350,755

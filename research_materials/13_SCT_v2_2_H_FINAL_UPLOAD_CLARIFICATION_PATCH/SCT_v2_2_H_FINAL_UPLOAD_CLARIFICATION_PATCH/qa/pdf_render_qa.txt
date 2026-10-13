@@ -1,0 +1,5 @@
+pdf=SCT_v2_2_H_FINAL_UPLOAD_CLARIFICATION_PATCH.pdf
+render_pages=2
+renderer=pdfium via render_pdf.py
+visual_check=PASS no clipped text, no broken glyphs, no table overflow
+status=PASS

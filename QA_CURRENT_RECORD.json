@@ -1,0 +1,140 @@
+{
+  "record": "21269182",
+  "present_in_repo": 11,
+  "original_record_files": 23,
+  "source_file_sha256_and_zenodo_md5": "ALL_PASS",
+  "original_file_bytes_unmodified": true,
+  "release_bundle_sha256": "0fcf07f5482af2fef5622e9356153dd4d6a1e5b25f9ea32e2702ecf6b911ee97",
+  "repo_starter_sha256": "8c7b3d302f9f64fe6a74ab946d3a0f22ebbd5f203f3f88cd42776a3ad2c25a54",
+  "embedded_research_archives": [
+    {
+      "name": "11_SCT_v2_2_F_NUMERICAL_FORMULA_INVARIANCE_AUDIT.zip",
+      "files": 19,
+      "total_uncompressed_bytes": 51101,
+      "crc": "PASS"
+    },
+    {
+      "name": "13_SCT_v2_2_H_FINAL_UPLOAD_CLARIFICATION_PATCH.zip",
+      "files": 17,
+      "total_uncompressed_bytes": 22760,
+      "crc": "PASS"
+    },
+    {
+      "name": "09_SCT_v2_2_E_INTEGRATED_PUBLIC_MINI_RELEASE_TIMELINE_BUNDLE.zip",
+      "files": 19,
+      "total_uncompressed_bytes": 27819,
+      "crc": "PASS"
+    },
+    {
+      "name": "07_SCT_v2_1_H_complete_flat_public_archive.zip",
+      "files": 118,
+      "total_uncompressed_bytes": 5277088,
+      "crc": "PASS"
+    }
+  ],
+  "manifests": [
+    {
+      "source": "11_SCT_v2_2_F_NUMERICAL_FORMULA_INVARIANCE_AUDIT.zip",
+      "path": "SCT_v2_2_F_NUMERICAL_FORMULA_INVARIANCE_AUDIT/MANIFEST.sha256",
+      "pass": 18,
+      "mismatch_or_missing": []
+    },
+    {
+      "source": "13_SCT_v2_2_H_FINAL_UPLOAD_CLARIFICATION_PATCH.zip",
+      "path": "SCT_v2_2_H_FINAL_UPLOAD_CLARIFICATION_PATCH/MANIFEST.sha256",
+      "pass": 16,
+      "mismatch_or_missing": []
+    },
+    {
+      "source": "09_SCT_v2_2_E_INTEGRATED_PUBLIC_MINI_RELEASE_TIMELINE_BUNDLE.zip",
+      "path": "MANIFEST.sha256",
+      "pass": 18,
+      "mismatch_or_missing": []
+    },
+    {
+      "source": "07_SCT_v2_1_H_complete_flat_public_archive.zip",
+      "path": "SCT_v2_1_H_ZENODO_PUBLICATION_PREP_FINAL_PUBLIC_PACKAGE/MANIFEST.sha256",
+      "pass": 114,
+      "mismatch_or_missing": [
+        {
+          "kind": "hash_mismatch",
+          "path": "SCT_v2_1_H_ZENODO_PUBLICATION_PREP_FINAL_PUBLIC_PACKAGE/qa/final_zip_test.txt"
+        }
+      ]
+    },
+    {
+      "source": "07_SCT_v2_1_H_complete_flat_public_archive.zip",
+      "path": "SCT_v2_1_H_ZENODO_PUBLICATION_PREP_FINAL_PUBLIC_PACKAGE/supplements/v1_4_F_minimal_reproducibility/MANIFEST.sha256",
+      "pass": 38,
+      "mismatch_or_missing": [
+        {
+          "kind": "hash_mismatch",
+          "path": "SCT_v2_1_H_ZENODO_PUBLICATION_PREP_FINAL_PUBLIC_PACKAGE/supplements/v1_4_F_minimal_reproducibility/qa/reproducibility_check_run.txt"
+        }
+      ]
+    },
+    {
+      "source": "07_SCT_v2_1_H_complete_flat_public_archive.zip",
+      "path": "SCT_v2_1_H_ZENODO_PUBLICATION_PREP_FINAL_PUBLIC_PACKAGE/supplements/v1_6_E_conditional_FDT_model_A/MANIFEST.sha256",
+      "pass": 27,
+      "mismatch_or_missing": [
+        {
+          "kind": "hash_mismatch",
+          "path": "SCT_v2_1_H_ZENODO_PUBLICATION_PREP_FINAL_PUBLIC_PACKAGE/supplements/v1_6_E_conditional_FDT_model_A/qa/zip_test.txt"
+        }
+      ]
+    }
+  ],
+  "pdfs": [
+    {
+      "name": "03_SCT_v1_5_F_toy_kernel_refinement_closure_addendum.pdf",
+      "pages": 2,
+      "page1_title_text": "Spherical Cyclic Time v1.5-F Toy Kernel Reﬁnement Closure Addendum Spherical Cyclic Time / Tempo Sferico Ciclico project 2026-07-01 Abstract This addendum closes the v1.5"
+    },
+    {
+      "name": "04_SCT_v1_6_F_conditional_FDT_closure_addendum.pdf",
+      "pages": 3,
+      "page1_title_text": "Spherical Cyclic Time v1.6-F Conditional FDT Closure Interpretation and Publication Update Spherical Cyclic Time / Tempo Sferico Ciclico Project 2026-07-01 Abstract This "
+    },
+    {
+      "name": "10_SCT_v2_2_F_NUMERICAL_FORMULA_INVARIANCE_AUDIT.pdf",
+      "pages": 3,
+      "page1_title_text": "SCT v2.2-F numerical/formula invariance audit - non peer reviewed - no new physical claim Page 1 SCT v2.2-F - Numerical and Formula Invariance Audit Purpose This audit ch"
+    },
+    {
+      "name": "02_tempo_sferico_ciclico_v1_6_0_main_IT.pdf",
+      "pages": 15,
+      "page1_title_text": "Tempo Sferico Ciclico Quadro toy/informazionale ridotto per restart relativo, capacita’ di patch causale e memoria perturbativa Versione 1.4-H - Patch prepubblicazione e "
+    },
+    {
+      "name": "08_SCT_v2_2_E_INTEGRATED_PUBLIC_MINI_RELEASE_TIMELINE_BUNDLE.pdf",
+      "pages": 3,
+      "page1_title_text": "SCT v2.2-E - centerless timeline-bundle wording - public mini-release Page 1 SCT v2.2-E Integrated Public Mini-Release Centerless timeline-bundle wording addendum Release"
+    },
+    {
+      "name": "12_SCT_v2_2_H_FINAL_UPLOAD_CLARIFICATION_PATCH.pdf",
+      "pages": 2,
+      "page1_title_text": "SCT v2.2-H - Final Upload Clarification Patch Purpose This patch addresses final publication-review refinements after v2.2-G. It is not a new computational release and do"
+    },
+    {
+      "name": "01_spherical_cyclic_time_v1_6_0_main_EN.pdf",
+      "pages": 15,
+      "page1_title_text": "Spherical Cyclic Time A Reduced Informational Toy Framework for Relative Restart, Causal-Patch Capacity, and Perturbative Memory Version 1.4-H - Referee-Response and Prep"
+    },
+    {
+      "name": "06_SCT_v2_1_E_public_patch_after_transfer_route_decision.pdf",
+      "pages": 3,
+      "page1_title_text": "Spherical Cyclic Time v2.1-E Public Patch After Transfer Route Decision Internal technical addendum 2026-07-04 Abstract This addendum updates the public transfer-kernel l"
+    },
+    {
+      "name": "00_SCT_v2_2_I_FINAL_UNIFIED_ZENODO_GITHUB_UPLOAD_BUNDLE.pdf",
+      "pages": 2,
+      "page1_title_text": "SCT v2.2-I Final Unified Zenodo/GitHub Upload Bundle Spherical Cyclic Time / Tempo Sferico Ciclico Purpose. This package unifies v2.2-G and v2.2-H into one final upload-r"
+    },
+    {
+      "name": "05_SCT_v2_0_public_addendum_and_synthesis.pdf",
+      "pages": 4,
+      "page1_title_text": "Spherical Cyclic Time v2.0 Addendum Minimal Closed-Background Transfer Tests Public synthesis addendum 2026-07-04 Abstract This addendum summarizes the v2.0-A through v2."
+    }
+  ]
+}

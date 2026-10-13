@@ -1,0 +1,17 @@
+STDOUT:
+v1.3-B rows=4320 ok_toy=681 outdir=<local_sandbox_path>/SCT_v1_4_F_MINIMAL_REPRODUCIBILITY_PACKAGE_OR_CLOSE_V1_4_BRANCH/outputs/reproduced/v13B
+v1.3-C rows=5040 coherent_toy=228 outdir=<local_sandbox_path>/SCT_v1_4_F_MINIMAL_REPRODUCIBILITY_PACKAGE_OR_CLOSE_V1_4_BRANCH/outputs/reproduced/v13C
+v1.4-E compact summaries reproduced
+                        module  grid_rows           favorable_definition  favorable_rows  favorable_fraction_grid_proxy  strict_failure_rows  strict_failure_fraction_grid_proxy  critical_rows  critical_fraction_grid_proxy                                                                              main_caveat
+v1.3-B alpha/Gamma_S templates       4320       classification == ok toy             681                       0.157639                 3051                             0.70625             87                      0.020139      favorable volume dominated by toy/control clock templates; no microphysical Gamma_S
+  v1.3-C perturbative matching       5040 classification == coherent_toy             228                       0.045238                 1077                             0.21369           1378                      0.273413 coherent region is a small combinatorial grid fraction and uses non-derived k_c, p, P_xi
++ /opt/pyvenv/bin/python scripts/run_v13B_alpha_template_scan.py --outdir <local_sandbox_path>/SCT_v1_4_F_MINIMAL_REPRODUCIBILITY_PACKAGE_OR_CLOSE_V1_4_BRANCH/outputs/reproduced/v13B
++ /opt/pyvenv/bin/python scripts/run_v13C_perturbative_matching_scan.py --outdir <local_sandbox_path>/SCT_v1_4_F_MINIMAL_REPRODUCIBILITY_PACKAGE_OR_CLOSE_V1_4_BRANCH/outputs/reproduced/v13C
++ /opt/pyvenv/bin/python scripts/run_v14E_failure_taxonomy_audit.py --v13b <local_sandbox_path>/SCT_v1_4_F_MINIMAL_REPRODUCIBILITY_PACKAGE_OR_CLOSE_V1_4_BRANCH/outputs/reproduced/v13B/SCT_v1_3_B_alpha_template_dynamic_scan.csv --v13c <local_sandbox_path>/SCT_v1_4_F_MINIMAL_REPRODUCIBILITY_PACKAGE_OR_CLOSE_V1_4_BRANCH/outputs/reproduced/v13C/SCT_v1_3_C_matching_scan_full.csv --outdir <local_sandbox_path>/SCT_v1_4_F_MINIMAL_REPRODUCIBILITY_PACKAGE_OR_CLOSE_V1_4_BRANCH/outputs/reproduced/v14E
+ALL REPRODUCIBILITY CHECKS PASS
+
+STDERR:
+<local_sandbox_path>/SCT_v1_4_F_MINIMAL_REPRODUCIBILITY_PACKAGE_OR_CLOSE_V1_4_BRANCH/scripts/run_v13C_perturbative_matching_scan.py:69: DeprecationWarning: `trapz` is deprecated. Use `trapezoid` instead, or one of the numerical integration functions in `scipy.integrate`.
+  'F_global_mean': float(np.trapz(mem, logk) / (logk[-1] - logk[0])),
+
+RETURN_CODE: 0

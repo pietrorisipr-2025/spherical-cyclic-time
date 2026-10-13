@@ -1,0 +1,18 @@
+{
+  "decision": "SCT_v1_6_E_CONDITIONAL_FDT_MODEL_A_RESTRICTED_AUDIT_DONE",
+  "zip_name": "SCT_v1_6_E_CONDITIONAL_FDT_MODEL_A_RESTRICTED_AUDIT.zip",
+  "rows": 140,
+  "counts": {
+    "weak": 52,
+    "failed": 35,
+    "critical": 28,
+    "coherent_toy": 25
+  },
+  "claim_boundary": [
+    "conditional toy closure only",
+    "no physical restart",
+    "no parameter tuning",
+    "not peer reviewed"
+  ],
+  "next_recommended": "SCT_v1_6_F_CONDITIONAL_FDT_CLOSURE_INTERPRETATION_AND_PUBLICATION_UPDATE"
+}

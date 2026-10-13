@@ -1,0 +1,3 @@
+PASS
+Rendered 3 pages at 160 DPI with /home/oai/skills/pdfs/scripts/render_pdf.py.
+Visual spot check: no clipping/overlap observed on rendered pages.

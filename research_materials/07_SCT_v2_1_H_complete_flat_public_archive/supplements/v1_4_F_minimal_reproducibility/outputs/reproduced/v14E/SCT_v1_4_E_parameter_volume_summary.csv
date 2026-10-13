@@ -1,0 +1,3 @@
+module,grid_rows,favorable_definition,favorable_rows,favorable_fraction_grid_proxy,strict_failure_rows,strict_failure_fraction_grid_proxy,critical_rows,critical_fraction_grid_proxy,main_caveat
+v1.3-B alpha/Gamma_S templates,4320,classification == ok toy,681,0.15763888888888888,3051,0.70625,87,0.02013888888888889,favorable volume dominated by toy/control clock templates; no microphysical Gamma_S
+v1.3-C perturbative matching,5040,classification == coherent_toy,228,0.04523809523809524,1077,0.21369047619047618,1378,0.2734126984126984,"coherent region is a small combinatorial grid fraction and uses non-derived k_c, p, P_xi"

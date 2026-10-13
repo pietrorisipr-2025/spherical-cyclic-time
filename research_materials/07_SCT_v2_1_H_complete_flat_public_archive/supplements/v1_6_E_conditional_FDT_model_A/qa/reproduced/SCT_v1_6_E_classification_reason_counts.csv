@@ -1,0 +1,8 @@
+classification,reason,count
+coherent_toy,large_scale_partial_memory_small_scale_regeneration,25
+critical,memory_dominant_suspicious,28
+failed,memory_erased_all_scales,25
+failed,no_large_scale_transmission,10
+weak,borderline_large_scale_memory,23
+weak,not_clean_transition,25
+weak,small_scale_memory_not_cleanly_erased,4

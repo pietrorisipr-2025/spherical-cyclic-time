@@ -1,0 +1,42 @@
+{
+  "title": "Spherical Cyclic Time: Transfer-Kernel Patch and Minimal Closed-Background Tests (v2.1.0)",
+  "version": "2.1.0",
+  "resource_type": "preprint / technical note",
+  "creators": [
+    {
+      "name": "Risi, Pietro",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "language": [
+    "eng",
+    "ita"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20499294",
+      "relation": "isNewVersionOf / isVersionOf",
+      "resource_type": "preprint"
+    }
+  ],
+  "keywords": [
+    "spherical cyclic time",
+    "cyclic time",
+    "entropy",
+    "informational capacity",
+    "relative entropy",
+    "transfer kernel",
+    "cyclic cosmology",
+    "bounce",
+    "toy model",
+    "perturbative transfer",
+    "reproducibility",
+    "preregistration",
+    "non-gaussian transfer",
+    "high-k plateau",
+    "model-dependent transfer operator",
+    "open-system toy limit"
+  ],
+  "notes": "Non-peer-reviewed exploratory technical note. No physical cosmology or observational claim."
+}

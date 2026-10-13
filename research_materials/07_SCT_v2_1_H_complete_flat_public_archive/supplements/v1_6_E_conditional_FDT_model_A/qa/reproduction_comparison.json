@@ -1,0 +1,10 @@
+{
+  "csv_identical": true,
+  "rows": 140,
+  "counts": {
+    "weak": 52,
+    "failed": 35,
+    "critical": 28,
+    "coherent_toy": 25
+  }
+}

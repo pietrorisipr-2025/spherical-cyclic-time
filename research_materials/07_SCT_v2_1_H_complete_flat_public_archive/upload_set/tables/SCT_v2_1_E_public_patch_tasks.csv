@@ -1,0 +1,7 @@
+task,action,priority
+mainline transfer section,replace gaussian default with neutral transfer operator plus branch taxonomy,high
+gaussian kernel language,move to open-system/diffusive appendix and state required assumptions,high
+closed-background v2.0 results,add limited negative computational result summary,high
+plateau-like kernel,"present as explanatory toy only, not physical universal kernel",medium
+matching route,state execution blocked until physical inputs specified,medium
+claim boundary,forbid no-go theorem and observational/physical claims,high

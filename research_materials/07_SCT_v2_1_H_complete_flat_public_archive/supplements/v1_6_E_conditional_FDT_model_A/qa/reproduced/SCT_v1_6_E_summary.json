@@ -1,0 +1,10 @@
+{
+  "rows": 140,
+  "classification_counts": {
+    "weak": 52,
+    "failed": 35,
+    "critical": 28,
+    "coherent_toy": 25
+  },
+  "coherent_fraction": 0.17857142857142858
+}

@@ -1,0 +1,7 @@
+alpha_template,total_cases,ok_toy_cases,strict_fail_cases,critical_cases,weak_cases,ok_fraction_grid_proxy,strict_fail_fraction_grid_proxy,interpretation
+capacity_growth_locked_dlnScap,720,0,600,55,65,0.0,0.8333333333333334,failure/stress appendix; capacity-coupled source problematic
+fixed_physical_clock_Gamma_const,720,345,196,2,177,0.4791666666666667,0.2722222222222222,least_problematic_toy_baseline; not microphysical
+legacy_H_scaled_constant,720,333,195,20,172,0.4625,0.2708333333333333,control only; not a derivation
+matter_fraction_window,720,0,708,0,12,0.0,0.9833333333333333,failure appendix; no ok toy region
+matter_lambda_transition_window,720,3,632,10,75,0.004166666666666667,0.8777777777777778,near-failure appendix; tiny ok toy volume
+radiation_fraction_window,720,0,720,0,0,0.0,1.0,failure appendix; no ok toy region

@@ -1,0 +1,8 @@
+check,status
+package_manifest_v2_1_H,FAIL_QA_ONLY_KNOWN_PACKAGING_MISMATCH
+package_manifest_v2_2_E_manual,PASS
+v1_4_F_reference_vs_rerun,PASS_CORE_COUNTS_AND_TABLES
+v1_6_E_reference_vs_rerun,PASS
+v2_0_B_transfer_table_vs_rerun,PASS
+v2_0_E_transfer_table_vs_numba_rerun,PASS
+v2_2_E_no_numeric_replacement_payload,PASS

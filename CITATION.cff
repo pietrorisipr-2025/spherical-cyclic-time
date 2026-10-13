@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the original Zenodo record and version used."
+title: "Spherical Cyclic Time: Centerless Timeline-Bundle Clarification and Numerical/Formula Invariance Audit (v2.2)"
+authors:
+  - family-names: "Risi"
+    given-names: "Pietro"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21269182"
+    description: "Original Zenodo record DOI"
+url: "https://zenodo.org/records/21269182"

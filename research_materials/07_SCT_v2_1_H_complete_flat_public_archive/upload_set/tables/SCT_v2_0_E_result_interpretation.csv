@@ -1,0 +1,6 @@
+item,status,interpretation
+primary_alpha_0_20,NON_GAUSSIAN_TRANSFER,"Compact C2 matched power-law background produces bounded high-k plateau in normalized power transfer, not exp[-(k/kc)^2] damping."
+sensitivity_alpha_0_10,NON_GAUSSIAN_TRANSFER,Same qualitative plateau-like behavior; no gaussian compatibility.
+sensitivity_alpha_0_50,NON_GAUSSIAN_TRANSFER,Strong suppression but still bounded plateau; gaussian diagnostic improves but remains below compatibility threshold and does not remove plateau interpretation.
+scope,LIMITED,Result applies only to the preregistered compact C2 matched power-law family and proxy equation.
+excluded,NOT_TESTED,"No bath, P_xi, Gamma_S, FDT/KMS, entropy map, observational fit, or physical cosmology claim."

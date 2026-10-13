@@ -1,0 +1,6 @@
+component,old_status,new_status,reason
+T_R(k)=exp[-(k/k_c)^2],mainline toy/default after v1.5/v1.6,demoted to open-system/diffusive toy branch only,not supported by two closed-background tests v2.0-B/E
+unspecified transfer operator T_R(k),implicit,promoted as neutral mainline placeholder,honest until background or open-system kernel is independently derived
+plateau-like T_pl(k),not present,allowed as closed-background explanatory toy branch,mechanism identified in v2.1-A and preregistered in v2.1-B
+physical matching route,future option,blocked pending independent background/action/variable/matching conditions,v2.1-C block
+"P_xi, Gamma_S, entropy map",conditional toy/open questions,remain not derived,no bath/noise/FDT/entropy derivation

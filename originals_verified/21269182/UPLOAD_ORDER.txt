@@ -1,0 +1,14 @@
+SCT v2.2-I recommended upload order
+
+Upload the files in upload_files/ in numeric order:
+00 - v2.2-I overview PDF and sidecar
+01-07 - preserved v2.1-H public files
+08-09 - v2.2-E PDF/ZIP and sidecars
+10-11 - v2.2-F PDF/ZIP and sidecars
+12-13 - v2.2-H PDF/ZIP and sidecars
+
+Optionally also upload the outer final unified bundle ZIP and sidecar:
+SCT_v2_2_I_FINAL_UNIFIED_ZENODO_GITHUB_UPLOAD_BUNDLE.zip
+SCT_v2_2_I_FINAL_UNIFIED_ZENODO_GITHUB_UPLOAD_BUNDLE.zip.sha256
+
+Use copy_paste_blocks_final/ZENODO_DESCRIPTION_FINAL_v2_2_I.md as the visible Zenodo description/update note.
