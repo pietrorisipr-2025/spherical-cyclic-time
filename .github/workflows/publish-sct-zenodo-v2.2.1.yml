@@ -1,0 +1,53 @@
+name: Publish verified Zenodo SCT v2.2.1 release assets
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/publish-sct-zenodo-v2.2.1.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-sct-zenodo-v2.2.1
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Verify seven originals and attach to GitHub Release
+    if: github.repository == 'pietrorisipr-2025/spherical-cyclic-time'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out GitHub source archive
+        uses: actions/checkout@v4
+
+      - name: Download original Zenodo v2.2.1 files and verify hashes and CSV counts
+        run: python3 scripts/verify_sct_zenodo_v2_2_1.py --download
+
+      - name: Create or refresh GitHub release with verified original bytes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="zenodo-23964270"
+          dir="original-zenodo-downloads/v2.2.1"
+          shopt -s nullglob
+          files=("$dir"/*)
+          if [[ "${#files[@]}" -ne 7 ]]; then
+            echo "::error::Expected exactly 7 original Zenodo assets, found ${#files[@]}"
+            exit 1
+          fi
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" "${files[@]}" --clobber
+          else
+            gh release create "$tag" "${files[@]}" \
+              --title "Spherical Cyclic Time v2.2.1 — Zenodo corrective erratum" \
+              --notes-file release-notes/v2.2.1/README.md \
+              --target "$GITHUB_SHA"
+          fi
+          gh release view "$tag" --json url,assets --jq '{url: .url, assets: [.assets[].name]}'
