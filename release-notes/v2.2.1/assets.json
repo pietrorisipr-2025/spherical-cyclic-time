@@ -1,0 +1,61 @@
+{
+  "schema": "sct-zenodo-release-assets-v1",
+  "zenodo_record_id": 23964270,
+  "version": "2.2.1",
+  "published": "2026-11-04",
+  "doi": "10.5281/zenodo.23964270",
+  "checksum_source": "MD5 values displayed by public Zenodo record 23964270; SHA-256 of ZIP taken from its Zenodo companion .sha256 file at verification time",
+  "assets": [
+    {
+      "filename": "SCT_corrected_v1_2_phase_scan_720.csv",
+      "url": "https://zenodo.org/records/23964270/files/SCT_corrected_v1_2_phase_scan_720.csv?download=1",
+      "md5": "5774ac7db409c5ee7b75982e978efc72",
+      "expected_csv": {
+        "rows": 720,
+        "ok_toy": 227
+      }
+    },
+    {
+      "filename": "SCT_corrected_v1_3_A_patch_choice_1440.csv",
+      "url": "https://zenodo.org/records/23964270/files/SCT_corrected_v1_3_A_patch_choice_1440.csv?download=1",
+      "md5": "ffb6be634e27a56fcf649621547a2d96",
+      "expected_csv": {
+        "rows": 1440,
+        "ok_toy": 548,
+        "ok_by_patch": {
+          "apparent_horizon_mainline": 218,
+          "future_event_horizon_diagnostic": 330
+        }
+      }
+    },
+    {
+      "filename": "SCT_corrected_v1_3_B_entropy_scan_4320.csv",
+      "url": "https://zenodo.org/records/23964270/files/SCT_corrected_v1_3_B_entropy_scan_4320.csv?download=1",
+      "md5": "5511e09cca65d3f0a1722d056bc7dd0e",
+      "expected_csv": {
+        "rows": 4320,
+        "ok_toy": 536
+      }
+    },
+    {
+      "filename": "SCT_v2_2_M_erratum_EN.pdf",
+      "url": "https://zenodo.org/records/23964270/files/SCT_v2_2_M_erratum_EN.pdf?download=1",
+      "md5": "a1d7bea4b75d0316eae7a3a1fb82d1ab"
+    },
+    {
+      "filename": "SCT_v2_2_M_erratum_IT.pdf",
+      "url": "https://zenodo.org/records/23964270/files/SCT_v2_2_M_erratum_IT.pdf?download=1",
+      "md5": "615151a2ebd6016444a82edc8336cc74"
+    },
+    {
+      "filename": "SCT_v2_2_N_PUBLIC_ERRATUM_WITH_CORRECTED_DATA.zip",
+      "url": "https://zenodo.org/records/23964270/files/SCT_v2_2_N_PUBLIC_ERRATUM_WITH_CORRECTED_DATA.zip?download=1",
+      "md5": "7ffdf35631d3be3d9d222f0d070f985d"
+    },
+    {
+      "filename": "SCT_v2_2_N_PUBLIC_ERRATUM_WITH_CORRECTED_DATA.zip.sha256",
+      "url": "https://zenodo.org/records/23964270/files/SCT_v2_2_N_PUBLIC_ERRATUM_WITH_CORRECTED_DATA.zip.sha256?download=1",
+      "md5": "865483a67aa4402d4d77aa17b59b4791"
+    }
+  ]
+}
