@@ -1,62 +1,52 @@
-# Spherical Cyclic Time
+# Spherical Cyclic Time (SCT)
 
-**Pietro Risi — exploratory, AI-assisted research archive; not peer-reviewed.**
+**Pietro Risi · exploratory, human-directed and AI-assisted research · not peer-reviewed.**
 
-> **Publication status:** Public GitHub mirror of an exploratory, AI-assisted Zenodo research archive. The operator attested to rights/disclosure before public upload. This is not independent legal or scientific peer review.
+> **Current official scientific record: v2.2.1 (4 November 2026), [Zenodo 23964270](https://zenodo.org/records/23964270), DOI [10.5281/zenodo.23964270](https://doi.org/10.5281/zenodo.23964270).** This corrective release supersedes conflicting historical numerical tables and formula statements while preserving their original archives.
 
-## Begin here
-- **Important:** use v2.1-H for numerical results and v2.2-E/F/H for the semantic correction; do not cite the upload-guide PDF as the principal scientific article.
+## Start with the current erratum
 
-- [Read the v1.6 English base manuscript (historical main text)](originals_verified/21269182/01_spherical_cyclic_time_v1_6_0_main_EN.pdf)
-- [Read the v2.1-E computational interpretation patch](originals_verified/21269182/06_SCT_v2_1_E_public_patch_after_transfer_route_decision.pdf)
-- [Read the v2.2-E semantic clarification](originals_verified/21269182/08_SCT_v2_2_E_INTEGRATED_PUBLIC_MINI_RELEASE_TIMELINE_BUNDLE.pdf)
-- [Read the v2.2-F numerical/formula invariance audit](originals_verified/21269182/10_SCT_v2_2_F_NUMERICAL_FORMULA_INVARIANCE_AUDIT.pdf)
-- [Read the v2.2-H final clarification](originals_verified/21269182/12_SCT_v2_2_H_FINAL_UPLOAD_CLARIFICATION_PATCH.pdf)
-- [Scientific claim boundaries and roadmap](SCIENTIFIC_STATUS.md)
-- [Research version history](VERSION_HISTORY.md)
-- [Original archive provenance and checksums](SOURCES.md)
-- [Reproducibility and known verification limits](REPRODUCIBILITY.md)
-- [Copyright, licenses and AI-assistance boundaries](RIGHTS_AND_AI_USE.md)
+- [Technical erratum, English](https://zenodo.org/records/23964270/files/SCT_v2_2_M_erratum_EN.pdf?download=1)
+- [Erratum tecnico, italiano](https://zenodo.org/records/23964270/files/SCT_v2_2_M_erratum_IT.pdf?download=1)
+- [Full Zenodo record and corrected CSV data](https://zenodo.org/records/23964270)
+- [Version 2.2.1 corrections, status and provenance](release-notes/v2.2.1/README.md)
+- [Scientific status and open questions](SCIENTIFIC_STATUS.md)
+- [Verify the official release files](REPRODUCIBILITY.md)
 
-## Research question and outcome
+## Corrected numerical results
 
-An informational/toy framework, with locked closed-background transfer tests in v2.0–v2.1 and auxiliary centerless timeline-bundle interpretation in v2.2. No validated physical cosmology or new v2.2 numerical result.
+| Historical experiment | Historical OK toy | Corrected OK toy |
+| --- | ---: | ---: |
+| v1.2.0 phase scan (720 cases) | 217 | **227** |
+| v1.3-A Hubble/apparent horizon (720 cases) | 216 | **218** |
+| v1.3-A future-event horizon (720 cases) | 330 | **330 (unchanged)** |
+| v1.3-B entropy templates (4,320 cases) | 681 | **536** |
 
-## Publication lineage
+The corrected v1.3-B scan changes 824 of 4,320 historical classifications. Three v1.0.0 mathematical errors are corrected (spherical angular parametrization non-uniqueness, a derivative sign, Gaussian integral normalization). Tables 1–3, Figure 3, threshold analyses and dependent v1.4-E summaries are replaced where affected.
 
-Latest supplied public Zenodo record: [21269182](https://zenodo.org/records/21269182), DOI [10.5281/zenodo.21269182](https://doi.org/10.5281/zenodo.21269182).
+**Important:** the earlier v2.2-F invariance audit reproduced older program outputs, but did *not* verify that those programs implemented the published differential equation. Do not quote old results as independently validated because the historical programs reproduced them. See the English/Italian erratum for details.
 
-This repository contains checked copies of original deposited files and selected human-readable research supplements. The *unmodified original Zenodo asset bundle* must be attached to a GitHub Release, not added repeatedly to Git history.
+## Research scope
 
-### Essential context
+SCT is an exploratory toy/informational mathematical framework, not a validated physical cosmology. The centerless timeline-bundle semantic clarification introduced in v2.2.0 is retained. The independent v2.0/v2.1 toy transfer-kernel results are not directly changed by the v2.2.1 erratum; this does not certify them. There is no demonstrated cosmological restart mechanism, new observational prediction, or independent human peer review.
 
-Reading order: v1.6 EN/IT main paper, v1.5-F/v1.6-F, v2.0, v2.1-E and archive 07 (computed baseline), v2.2-E (wording), v2.2-F (invariance), v2.2-H (final clarification). The 00_...PDF is an upload guide, NOT the main scientific work.
+## Historical research, permanently preserved
 
-### Historical source verification
+The original 2026-07-08 v2.2.0 Zenodo record [21269182](https://zenodo.org/records/21269182) and archived manuscripts remain the record of what was previously published. Historical files in `originals_verified/` and `research_materials/` **must not be silently edited**. In particular, do not treat the upload guide as the scientific paper.
 
-Earlier deposited original files have been received and SHA-256 verified. Their scientific authority is graded in [`HISTORICAL_VERSION_AUDIT.md`](HISTORICAL_VERSION_AUDIT.md); this does not imply new scientific replication.
+- [v1.6 historical English base paper](originals_verified/21269182/01_spherical_cyclic_time_v1_6_0_main_EN.pdf)
+- [v2.1-E computational interpretation patch](originals_verified/21269182/06_SCT_v2_1_E_public_patch_after_transfer_route_decision.pdf)
+- [v2.2-E semantic clarification](originals_verified/21269182/08_SCT_v2_2_E_INTEGRATED_PUBLIC_MINI_RELEASE_TIMELINE_BUNDLE.pdf)
+- [v2.2-F historical invariance audit — limited scope](originals_verified/21269182/10_SCT_v2_2_F_NUMERICAL_FORMULA_INVARIANCE_AUDIT.pdf)
+- [v2.2-H final clarification](originals_verified/21269182/12_SCT_v2_2_H_FINAL_UPLOAD_CLARIFICATION_PATCH.pdf)
+- [Original archives and provenance](SOURCES.md) and [version history](VERSION_HISTORY.md)
 
-## Contributing
+The old archives, checksums and repository evidence retain their provenance; old superseded scientific conclusions do not regain authority because they are archived.
 
-Please supply clear assumptions, code or exact calculations, claimed scope, negative controls, and reproducibility instructions. AI-generated referee-style reports are not independent human peer review.
+## Reproducibility, rights and transparency
 
-## Reuse
+The seven v2.2.1 Zenodo files remain authoritative at Zenodo. The repository includes a URL/checksum manifest at [`release-notes/v2.2.1/assets.json`](release-notes/v2.2.1/assets.json) and a [Python integrity/count checker](scripts/verify_sct_zenodo_v2_2_1.py), without duplicating binary release files inside Git history. The script checks official-file MD5, the ZIP's companion SHA-256, CSV row counts, and the published `ok toy` counts; it **does not** re-integrate the equations or validate the physical model.
 
-The depositor intends permissive reuse: CC BY 4.0 for original copyrightable writing/figures, MIT for original software code, **only where the necessary rights exist**. Existing licenses and authorship of deposited or third-party components are not overridden by these files. See `RIGHTS_AND_AI_USE.md`.
+See [reproducibility](REPRODUCIBILITY.md), [licensing policy](LICENSE_POLICY.md), [rights and AI disclosure](RIGHTS_AND_AI_USE.md) and [AI assistance and validation](AI_ASSISTANCE_AND_VALIDATION.md). License assertions apply only to materials for which sufficient rights exist and do not override historical source licenses.
 
-
-## Original Zenodo historical comparison — 13 October 2026
-
-All 7 older original file(s) listed in `HISTORICAL_FILE_INDEX.csv` have been checked against original filenames, sizes and their supplied SHA-256. See [history audit](HISTORICAL_VERSION_AUDIT.md), and where available, separately attached original historical Release assets. The scientific status of a superseded file is **not** restored by archiving it.
-
-**This public archive preserves the Zenodo originals. Archival checks are not peer review or physics replication.**
-
-## Before using or redistributing
-
-- [What to read first and essential correction scope](RELEASE_READ_FIRST.md)
-- [License policy and file-level exceptions](LICENSE_POLICY.md)
-- [AI roles and distinction between integrity checks and peer review](AI_ASSISTANCE_AND_VALIDATION.md)
-- [Checklist for the human author before public publication](PUBLICATION_APPROVAL_REQUIRED.md)
-- [Per-file provenance/rights matrix](RIGHTS_SCOPE_MATRIX.csv)
-
-**This public archive does not imply independent scientific or legal verification.**
+**This archive does not imply human peer review, independent physical validation, or independent legal verification.**

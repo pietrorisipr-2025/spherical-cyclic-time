@@ -1,11 +1,9 @@
-# Suggested public reading order: spherical-cyclic-time
+# Read this first — Spherical Cyclic Time v2.2.1
 
-**Source Zenodo record:** https://doi.org/10.5281/zenodo.21269182
+**Canonical source:** [Zenodo 23964270](https://zenodo.org/records/23964270), DOI [10.5281/zenodo.23964270](https://doi.org/10.5281/zenodo.23964270) (2026-11-04).
 
-**Current recommended scientific authority:** v2.1 baseline + v2.2 clarifications
+Read [the English technical erratum](https://zenodo.org/records/23964270/files/SCT_v2_2_M_erratum_EN.pdf?download=1) or [the Italian technical erratum](https://zenodo.org/records/23964270/files/SCT_v2_2_M_erratum_IT.pdf?download=1) **before** consulting older v1.6/v2.1/v2.2.0 material. The v2.2.1 corrected CSV data supersede historical conflicting numerical classifications. The 00_ upload-guide PDF is **not** the main scientific manuscript.
 
-Read v2.1-H computed transfer baseline and the v2.2-E/F/H semantic/QA addenda. The 00_ upload guide is not a scientific manuscript. Earlier v1.2 data are superseded, with unique figures archived for provenance.
+The older v2.2-F invariance audit did not test whether its historical implementation matched the published ODE; do not imply otherwise. Original historical materials remain intact for provenance. See `README.md`, `SCIENTIFIC_STATUS.md`, `VERSION_HISTORY.md`, `REPRODUCIBILITY.md`.
 
-Read `README.md`, `SCIENTIFIC_STATUS.md`, `HISTORICAL_VERSION_AUDIT.md` and `REPRODUCIBILITY.md` first. Consult intact current Zenodo original files in GitHub release attachments. Historical attachments are evidence, not reinstatements of superseded claims. **No new physical verification or human peer review has been performed for GitHub packaging.**
-
-**Status:** Public GitHub mirror; its underlying scientific claims are not peer-reviewed.
+**Status:** Exploratory/AI-assisted, not peer-reviewed; no confirmed physical cosmology or new observational prediction.

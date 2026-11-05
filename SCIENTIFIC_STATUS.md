@@ -1,25 +1,20 @@
-# Scientific status and constraints
+# Scientific status and constraints — as of SCT v2.2.1
 
-**Not peer-reviewed; AI-assisted scientific working archive.**
+**Current source of scientific authority: [Zenodo v2.2.1, 10.5281/zenodo.23964270](https://doi.org/10.5281/zenodo.23964270), 4 November 2026.** Exploratory, AI-assisted, non-peer-reviewed research.
 
-**Publication record:** 21269182. **Recommendation:** v2.1-H BASE + v2.2-E/F/H. **Classification:** `COMPUTATIONAL_BASELINE_WITH_CLARIFICATION`.
+The v2.2.1 erratum supersedes affected equations and numerical classifications from v1.0.0, v1.2.0, v1.3-A, v1.3-B, v1.4-E and the inherited v1.6 tables/figure. Main changes: 227/720 phase OK toy; Hubble-horizon 218/720 OK toy; future-event-horizon 330/720 OK toy (unchanged); entropy templates 536/4,320 OK toy with 824/4,320 classifications changed. See the [canonical erratum](release-notes/v2.2.1/README.md) for the precise applicability of every correction.
 
-## Research conclusion
+### Scope of the v2.2-F audit
 
-An informational/toy framework, with locked closed-background transfer tests in v2.0–v2.1 and auxiliary centerless timeline-bundle interpretation in v2.2. No validated physical cosmology or new v2.2 numerical result.
+The older numerical-invariance audit reproduced the implementation's historical outputs. Reproducibility of an incorrect implementation does not prove agreement with the printed ODE. The v2.2.1 specification-conformance erratum explicitly corrects this. Earlier figures, tables and dependent summaries are retained **as historical records**, not recommended numerical results.
 
-## What the report does not establish
+### Not directly altered
 
-No unreported physical effect, new observational detection, completed theory or general no-go result is implied by this archive. Assertions are limited to the explicitly audited hypotheses.
+- The centerless timeline-bundle semantic interpretation of v2.2.0.
+- The independent v2.0/v2.1 toy transfer-kernel calculations (not thereby independently validated).
 
-## Corrections, addenda, unresolved inputs
+### Not established
 
-Reading order: v1.6 EN/IT main paper, v1.5-F/v1.6-F, v2.0, v2.1-E and archive 07 (computed baseline), v2.2-E (wording), v2.2-F (invariance), v2.2-H (final clarification). The 00_...PDF is an upload guide, NOT the main scientific work.
+No validated physical cosmology, physical restart, experimental detection, new observational prediction, complete no-go proof or peer review. Independent checks of v1.3-C and v1.6-E classifiers, documentation of v2.0 transfer extraction, bibliography corrections and previously noted packaging exceptions remain open.
 
-Earlier public v1.0.0 and v1.2.0 file sources have now been SHA-checked; v1.2 EN/IT data archives are preserved as historical. Three inherited QA/log manifest mismatches in nested v2.1-H archives; see QA summary.
-
-The reproducibility of particular subpackages is distinct from independent human validation. All further extensions require fresh preregistration and a bounded claim scope.
-
-## Historical audit correction (13 October 2026)
-
-Historical original source files requested in the v0.3 notes have been provided and SHA-checked. See `HISTORICAL_VERSION_AUDIT.md` and `ARCHIVE_READINESS.md` for precise record-level dispositions and remaining computational/rights limits. Older "metadata only" warnings elsewhere in the v0.3 text are superseded.
+Integrity checks of downloaded Zenodo assets are not re-runs of all scientific computations. Historical repository QA results remain specific to the earlier records; see `QA_CURRENT_RECORD.json` for known inherited mismatches.
